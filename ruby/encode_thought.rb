@@ -5,7 +5,7 @@ dirname = 'thoughts'
 
 # Get text and swap in code words
 puts "Enter your thought:"
-thought = gets.downcase
+thought = $stdin.gets.strip.downcase
 SharedVars::CODE_WORDS.each do |real, code|
   thought.gsub!( real, code )
 end
@@ -15,11 +15,11 @@ Dir.mkdir(dirname) unless Dir.exists?(dirname)
 
 # Get a name for the thought
 print "\nThought encoded. Please enter a name for this thought: "
-thought_name = gets.strip
+thought_name = $stdin.gets.strip
 while File.file?(dirname + '/thought-' + thought_name + '.txt') do
   puts "Sorry, that name has already been used."
   print "\nPlease enter another name for your thought: "
-  thought_name = gets.strip
+  thought_name = $stdin.gets.strip
 end
 
 # Save the jibberish to a new file
