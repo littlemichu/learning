@@ -12,7 +12,7 @@ options.file_names = []
 
 # Create option parser 
 opt_parser = OptionParser.new do |opts|
-  opts.banner = "Usage: decode_thoughts.rb <file_name0> <file_name1> ..."
+  opts.banner = "Usage: decode_thoughts.rb [options (not required)]"
   opts.separator ""
   opts.separator "Specific options:"
 

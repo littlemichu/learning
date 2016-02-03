@@ -1,5 +1,8 @@
-Modify settings.rb accordingly to dictate what sensitive words should be encoded as.
-Then run the command: ruby encode_thought.rb
+Run this program:
+
+1. Modify settings.rb accordingly to dictate what sensitive words should be encoded as.
+2. Run this command: ruby encode_thought.rb
 
 To decode your thoughts, use decode_thoughts.rb
-ruby decode_thoughts.rb -h
+- Use this command: ruby decode_thoughts.rb 
+- For more options: ruby decode_thoughts.rb -h 
