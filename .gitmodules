@@ -1,9 +1,1 @@
-[submodule "api"]
-	path = api
-	url = C:/Users/Alice/workspace/public/api.git
-[submodule "client"]
-	path = client
-	url = C:/Users/Alice/workspace/public/client.git
-[submodule "design"]
-	path = design
-	url = C:/Users/Alice/workspace/public/design.git
+
