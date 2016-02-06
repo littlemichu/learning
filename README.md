@@ -1,4 +1,4 @@
-# weather-app-tutorial
-Following tutorial that uses Sinatra and Angular.js to create a weather app
+# sinatra-tutorial
+Following tutorial that uses Sinatra and Angular.js
 
-Tutorial link: http://billpatrianakos.me/blog/2014/04/21/create-a-weather-app-with-sinatra-and-angularjs-part-1/
+Tutorial link: http://joeyates.info/2010/04/07/a-beginners-sinatra-tutorial/
