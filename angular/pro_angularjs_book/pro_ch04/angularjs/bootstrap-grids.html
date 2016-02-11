@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Bootstrap Examples</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="bootstrap.css" rel="stylesheet" />
+	<link href="bootstrap-theme.css" rel="stylesheet" />
+	<style>
+		#gridContainer, #responsiveGridContainer { padding: 20px; }
+		.grid-row > div { border: 1px solid lightgrey; padding: 10px;
+			background-color: aliceblue; margin: 5px 0; }
+	</style>
+</head>
+<body>
+	<div class="panel">
+		<div class="panel-heading">
+			<h3>Grid Layout</h3>
+		</div>
+		<div class="panel-body">
+			<div id="gridContainer">
+				<div class="row grid-row">
+					<div class="col-xs-1">1</div>
+					<div class="col-xs-1">1</div>
+					<div class="col-xs-2">2</div>
+					<div class="col-xs-2">2</div>
+					<div class="col-xs-6">6</div>
+				</div>
+
+				<div class="row grid-row">
+					<div class="col-xs-3">3</div>
+					<div class="col-xs-4">4</div>
+					<div class="col-xs-5">5</div>
+				</div>
+
+				<div class="row grid-row">
+					<div class="col-xs-6">6</div>
+					<div class="col-xs-6">6</div>
+				</div>
+
+				<div class="row grid-row">
+					<div class="col-xs-11">11</div>
+					<div class="col-xs-1">1</div>
+				</div>
+
+				<div class="row grid-row">
+					<div class="col-xs-12">12</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="panel">
+		<div class="panel-heading">
+			<h3>Responsive Grid Layout</h3>
+		</div>
+		<div class="panel-body">
+			<div id="responsiveGridContainer">
+				<div class="row grid-row">
+					<div class="col-sm-3">3</div>
+					<div class="col-sm-4">4</div>
+					<div class="col-sm-5">5</div>
+				</div>
+
+				<div class="row grid-row">
+					<div class="col-sm-6">6</div>
+					<div class="col-sm-6">6</div>
+				</div>
+
+				<div class="row grid-row">
+					<div class="col-sm-11">11</div>
+					<div class="col-sm-1">1</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
