@@ -1,1 +1,4 @@
-Pro AngularJS - Chapter 1 "Getting Ready"
+Pro AngularJS
+=============
+Chapter 1 "Getting Ready"
+-------------------------
